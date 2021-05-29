@@ -20,7 +20,14 @@ export default class CustomDocument extends Document<{
   render () {
     return (
       <Html>
-        <Head>{this.props.styleTags}</Head>
+        <Head>
+          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link
+            href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'
+            rel='stylesheet'
+          />
+          {this.props.styleTags}
+        </Head>
         <body>
           <Main />
           <NextScript />
