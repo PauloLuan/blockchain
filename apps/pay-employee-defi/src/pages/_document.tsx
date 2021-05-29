@@ -5,7 +5,7 @@ import { ServerStyleSheet } from 'styled-components'
 export default class CustomDocument extends Document<{
   styleTags: ReactElement[]
 }> {
-  static getInitialProps({ renderPage }) {
+  static getInitialProps ({ renderPage }) {
     const sheet = new ServerStyleSheet()
 
     const page = renderPage((App) => (props) =>
@@ -17,7 +17,7 @@ export default class CustomDocument extends Document<{
     return { ...page, styleTags }
   }
 
-  render() {
+  render () {
     return (
       <Html>
         <Head>{this.props.styleTags}</Head>
