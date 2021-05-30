@@ -1,0 +1,46 @@
+{
+  "Example Cases": {
+    "body": "$1 ${1/(.*)/${1:/upcase}/}  -> ${1/(.*)/${1:/downcase}/}  ->  ${1/(.*)/${1:/pascalcase}/}  ->  ${1/(.*)/${1:/capitalize}/}",
+    "description": "how to make uppercase"
+  },
+  "Chackra test": {
+    "prefix": "ch:test",
+    "body": [
+      "import React from 'react'",
+      "import { render } from '@testing-library/react'",
+      "",
+      "import { ${1/(.*)/${1:/capitalize}/} } from '.'",
+      "",
+      "describe('${1/(.*)/${1:/capitalize}/} Page', () => {",
+      "  it('should renders ${1/(.*)/${1:/capitalize}/} page correctly', () => {",
+      "    const { asFragment } = render(<${1/(.*)/${1:/capitalize}/} />)",
+      "    expect(asFragment()).toMatchSnapshot()",
+      "  })",
+      "",
+      "  it(\"should find the ${1/(.*)/${1:/capitalize}/} test id and it's mindingo's class\", () => {",
+      "    const { getByTestId } = render(<${1/(.*)/${1:/capitalize}/} />)",
+      "    const result = getByTestId('${1/(.*)/${1:/capitalize}/}').textContent",
+      "    expect(result).toEqual('mindingo')",
+      "  })",
+      "})",
+      ""
+    ],
+    "description": "Chackra unit test"
+  },
+  "Chackra Component": {
+    "prefix": "ch:component",
+    "body": [
+      "import { Flex } from '@chakra-ui/react'",
+      "",
+      "export const ${1/(.*)/${1:/capitalize}/} = () => {",
+      "  return (",
+      "    <Flex>",
+      "      <h1 data-testid='${1/(.*)/${1:/capitalize}/}'>mindingo</h1>",
+      "    </Flex>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "Chackra Component"
+  }
+}
