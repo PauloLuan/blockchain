@@ -8,7 +8,7 @@
     "build": "nx build",
     "test": "nx test",
     "test:update-snapshots": "nx test -u",
-    "test:watch": "yarn affected:test -- --watch",
+    "test:watch": "yarn affected:test -- --watch -u",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
     "affected:apps": "nx affected:apps",
