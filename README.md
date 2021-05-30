@@ -29,7 +29,7 @@ $ git clone https://github.com/PauloLuan/blockchain.git
 $ yarn
 ```
 
-### starting:
+### Running:
 
 to start all apps in parallel:
 
