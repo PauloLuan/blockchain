@@ -2,18 +2,21 @@ import { Flex, Stack, Input, Button } from '@chakra-ui/react'
 
 export const Login = () => {
   return (
-    <Flex
-      data-testid='login'
-      v='100vh'
-      h='100vh'
-      align='center'
-      justify='center'
-    >
+    <Flex v='100vh' h='100vh' align='center' justify='center'>
       <Flex as='form'>
         <Stack>
-          <Input name='name' type='email'></Input>
-          <Input name='password' type='password'></Input>
+          <Input
+            data-testid='login-email-field'
+            name='name'
+            type='email'
+          ></Input>
+          <Input
+            data-testid='login-password-field'
+            name='password'
+            type='password'
+          ></Input>
           <Button
+            data-testid='login-submit-button'
             colorScheme='blue'
             variant='solid'
             _hover={{

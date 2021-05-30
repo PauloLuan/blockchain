@@ -9,9 +9,12 @@ describe('Login Page', () => {
     expect(asFragment()).toMatchSnapshot()
   })
 
-  it("should find the login test id and it's mindingo's class", () => {
-    const { getByTestId } = render(<Login />)
-    const result = getByTestId('login').textContent
-    expect(result).toEqual('mindingo')
+  describe('Form', () => {
+    it('email, password and submit button fields should exists in the document', () => {
+      const { getByTestId } = render(<Login />)
+      expect(getByTestId('login-email-field')).toBeDefined()
+      expect(getByTestId('login-password-field')).toBeDefined()
+      expect(getByTestId('login-submit-button')).toBeDefined()
+    })
   })
 })

@@ -3,13 +3,36 @@
 exports[`Login Page should renders login page correctly 1`] = `
 <DocumentFragment>
   <div
-    class="css-k008qs"
+    class="css-h74a88"
+    v="100vh"
   >
-    <h1
-      data-testid="login"
+    <form
+      class="css-k008qs"
     >
-      mindingo
-    </h1>
+      <div
+        class="chakra-stack css-n21gh5"
+      >
+        <input
+          class="chakra-input css-0"
+          data-testid="login-email-field"
+          name="name"
+          type="email"
+        />
+        <input
+          class="chakra-input css-0"
+          data-testid="login-password-field"
+          name="password"
+          type="password"
+        />
+        <button
+          class="chakra-button css-6k6edw"
+          data-testid="login-submit-button"
+          type="button"
+        >
+          Sign In
+        </button>
+      </div>
+    </form>
   </div>
 </DocumentFragment>
 `;
