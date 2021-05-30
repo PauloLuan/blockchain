@@ -67,12 +67,10 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
-[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
+[![standard][standard-image]][standard-url] [![forthebadge][works-on-my-machine-image]][works-on-my-machine-url]
 
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
 [standard-url]: http://npm.im/standard
-[60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
-[60time-url]: https://forthebadge.com
 [works-on-my-machine-image]: https://forthebadge.com/images/badges/works-on-my-machine.svg
 [works-on-my-machine-url]: https://forthebadge.com
 
