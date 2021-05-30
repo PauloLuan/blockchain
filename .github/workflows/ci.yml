@@ -1,0 +1,8 @@
+- name: Tests only the affected projects on Monorepo
+---
+- uses: mansagroup/nrwl-nx-action@v2
+  with:
+    targets: test
+    parallel: 'true'
+    maxParallel: 3
+    affected: 'true'
