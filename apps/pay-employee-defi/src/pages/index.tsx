@@ -6,7 +6,7 @@ const StyledPage = styled.div`
   }
 `
 
-export function Index () {
+export function Index() {
   return (
     <StyledPage>
       <h1>Welcome</h1>

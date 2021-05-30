@@ -7,6 +7,7 @@
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
         "semi": "never",
+        "singleQuote": true,
         "@nrwl/nx/enforce-module-boundaries": [
           "error",
           {
