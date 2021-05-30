@@ -1,7 +1,7 @@
 {
-  "paulo:teste": {
-    "body": ["snippet de mindingo: {\n\t$0\n}"],
-    "description": "creates a new mindingo",
-    "prefix": "mindingo"
+  "export index": {
+    "prefix": "index:export",
+    "body": ["export * from './Login'", ""],
+    "description": "export index"
   }
 }
