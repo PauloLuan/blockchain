@@ -12,9 +12,9 @@ describe('Login Page', () => {
   describe('Form', () => {
     it('email, password and submit button fields should exists in the document', () => {
       const { getByTestId } = render(<Login />)
-      expect(getByTestId('login-email-field')).toBeDefined()
-      expect(getByTestId('login-password-field')).toBeDefined()
-      expect(getByTestId('login-submit-button')).toBeDefined()
+      expect(getByTestId('login-email-field')).toBeInTheDocument()
+      expect(getByTestId('login-password-field')).toBeInTheDocument()
+      expect(getByTestId('login-submit-button')).toBeInTheDocument()
     })
   })
 })
