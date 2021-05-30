@@ -6,5 +6,6 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'babel-jest'
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   coverageDirectory: '../../coverage/apps/pay-employee-defi'
 }
