@@ -3,5 +3,10 @@
     "prefix": "index:export",
     "body": ["export * from './Login'", ""],
     "description": "export index"
+  },
+  "data id": {
+    "prefix": "id:data",
+    "body": ["data-testid='${1}'"],
+    "description": "Adds a data-id attribute to an element"
   }
 }
