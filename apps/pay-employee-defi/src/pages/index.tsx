@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Login } from '../components/Login'
 
 const StyledPage = styled.div`
   .page {
   }
 `
 
-export function Index() {
+export function Index () {
   return (
     <StyledPage>
-      <h1>Welcome</h1>
+      <Login />
     </StyledPage>
   )
 }
