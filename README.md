@@ -12,6 +12,7 @@ It uses [NX](https://nx.dev/latest/react/guides/nextjs) and it helped me to arch
 
 <p align="center">
     <a href="https://github.com/PauloLuan/blockchain/actions/workflows/ci.yml"><img src="https://img.shields.io/github/workflow/status/pauloluan/blockchain/CI Checks?style=for-the-badge"></a>
+    <a href="https://github.com/PauloLuan/blockchain/actions/workflows/ci.yml"><img src="https://forthebadge.com/images/badges/it-works-why.svg"></a>
 </p>
 
 ## 📝 Minimal Requirements
@@ -58,13 +59,6 @@ Where you can find me:
   </a>
 </p>
 
-[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
-
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
-[standard-url]: http://npm.im/standard
-[60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
-[60time-url]: https://forthebadge.com
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pauloluan/blockchain/issues).
@@ -72,5 +66,14 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+[![standard][standard-image]][standard-url] [![forthebadge][60time-image]][60time-url]
+
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=for-the-badge
+[standard-url]: http://npm.im/standard
+[60time-image]: https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg
+[60time-url]: https://forthebadge.com
+[works-on-my-machine-image]: https://forthebadge.com/images/badges/works-on-my-machine.svg
+[works-on-my-machine-url]: https://forthebadge.com
 
 [🔝 back to top](#top)
