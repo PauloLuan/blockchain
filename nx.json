@@ -14,7 +14,13 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
       }
     }
   },
@@ -28,6 +34,10 @@
     },
     "pay-employee-defi-shared-ui": {
       "tags": []
+    },
+    "pay-employee-defi-shared-ui-e2e": {
+      "tags": [],
+      "implicitDependencies": ["pay-employee-defi-shared-ui"]
     }
   }
 }
