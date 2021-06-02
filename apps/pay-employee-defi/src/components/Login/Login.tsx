@@ -8,6 +8,8 @@ import {
   Button
 } from '@chakra-ui/react'
 
+import { PayEmployeeDefiSharedUi } from '@pauloluan/pay-employee-defi/shared-ui'
+
 export const Login = () => {
   return (
     <Flex v='100vh' h='100vh' align='center' justify='center'>
@@ -19,6 +21,7 @@ export const Login = () => {
         borderColor='white'
       >
         <Stack>
+          <PayEmployeeDefiSharedUi />
           <FormControl size='lg'>
             <FormLabel>Seu Email</FormLabel>
             <Input
@@ -39,7 +42,6 @@ export const Login = () => {
             ></Input>
             <FormHelperText>Respeitamos a LGPD</FormHelperText>
           </FormControl>
-
           <Button
             data-testid='login-submit-button'
             colorScheme='blue'

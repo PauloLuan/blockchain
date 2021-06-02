@@ -25,6 +25,9 @@
     "pay-employee-defi-e2e": {
       "tags": [],
       "implicitDependencies": ["pay-employee-defi"]
+    },
+    "pay-employee-defi-shared-ui": {
+      "tags": []
     }
   }
 }

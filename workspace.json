@@ -94,6 +94,29 @@
           }
         }
       }
+    },
+    "pay-employee-defi-shared-ui": {
+      "root": "libs/pay-employee-defi/shared-ui",
+      "sourceRoot": "libs/pay-employee-defi/shared-ui/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/pay-employee-defi/shared-ui/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/pay-employee-defi/shared-ui"],
+          "options": {
+            "jestConfig": "libs/pay-employee-defi/shared-ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }
