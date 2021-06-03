@@ -38,6 +38,9 @@
     "pay-employee-defi-shared-ui-e2e": {
       "tags": [],
       "implicitDependencies": ["pay-employee-defi-shared-ui"]
+    },
+    "generator": {
+      "tags": []
     }
   }
 }

@@ -27,7 +27,7 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "generate": "npx plop --plopfile ./generators/plopfile.js"
+    "generate": "npx plop --plopfile ./libs/generator/plopfile.js"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.3",

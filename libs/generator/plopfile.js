@@ -12,30 +12,30 @@ module.exports = function (plop) {
       {
         type: 'add',
         path:
-          '../src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
+          './src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
         templateFile: 'templates/styled/component.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/index.ts',
+        path: './src/components/{{pascalCase name}}/index.ts',
         templateFile: 'templates/styled/index.ts.hbs'
       },
       {
         type: 'add',
         path:
-          '../src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
+          './src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
         templateFile: 'templates/styled/spec.tsx.hbs'
       },
       {
         type: 'add',
         path:
-          '../src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
+          './src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
         templateFile: 'templates/styled/stories.tsx.hbs'
       },
       {
         type: 'add',
         path:
-          '../src/components/{{pascalCase name}}/{{kebabCase name}}.styles.ts',
+          './src/components/{{pascalCase name}}/{{kebabCase name}}.styles.ts',
         templateFile: 'templates/styled/styles.ts.hbs'
       }
     ]
