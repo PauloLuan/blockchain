@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react'
+import { Flex, Box, Spacer } from '@chakra-ui/react'
 
 export interface HeaderProps {
   name: string
@@ -7,7 +7,13 @@ export interface HeaderProps {
 export const Header = ({ name }: HeaderProps) => {
   return (
     <Flex>
-      <h1 data-testid='header'>header</h1>
+      <Box p='4' background='tomato'>
+        Left
+      </Box>
+      <Spacer />
+      <Box p='4' backgroundColor={'blue.500'}>
+        Azul
+      </Box>
     </Flex>
   )
 }
