@@ -41,6 +41,13 @@
     },
     "generator": {
       "tags": []
+    },
+    "send-crypto": {
+      "tags": []
+    },
+    "send-crypto-e2e": {
+      "tags": [],
+      "implicitDependencies": ["send-crypto"]
     }
   }
 }
