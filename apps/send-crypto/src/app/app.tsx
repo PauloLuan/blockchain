@@ -1,15 +1,14 @@
-import styled from 'styled-components'
-
-const StyledApp = styled.div``
+import { GlobalStyles } from './styles/global'
 
 export function App () {
   return (
-    <StyledApp>
+    <>
+      <GlobalStyles />
       <header className='flex'>
         <h1>Welcome to send-crypto!</h1>
       </header>
       <main>Aoba</main>
-    </StyledApp>
+    </>
   )
 }
 
