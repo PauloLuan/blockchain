@@ -11,7 +11,9 @@ export default {
 
 export const primary = () => {
   /* eslint-disable-next-line */
-  const props: {{pascalCase name}}Props = {}
+  const props: {{pascalCase name}}Props = {
+    name: 'Paulo Luan'
+  }
 
-  return <{{pascalCase name}} />
+  return <{{pascalCase name}} {...props} />
 }
