@@ -1,6 +1,6 @@
 module.exports = function (plop) {
   plop.setGenerator('component:styled', {
-    description: 'application component logic',
+    description: 'styled: Generates a default and pure styled component',
     prompts: [
       {
         type: 'input',
@@ -13,30 +13,30 @@ module.exports = function (plop) {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
-        templateFile: 'templates/styled/component.tsx.hbs'
+        templateFile: 'templates/styled/component/component.tsx.hbs'
       },
       {
         type: 'add',
         path: './src/components/{{pascalCase name}}/index.ts',
-        templateFile: 'templates/styled/index.ts.hbs'
+        templateFile: 'templates/styled/component/index.ts.hbs'
       },
       {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
-        templateFile: 'templates/styled/spec.tsx.hbs'
+        templateFile: 'templates/styled/component/spec.tsx.hbs'
       },
       {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
-        templateFile: 'templates/styled/stories.tsx.hbs'
+        templateFile: 'templates/styled/component/stories.tsx.hbs'
       },
       {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.styles.ts',
-        templateFile: 'templates/styled/styles.ts.hbs'
+        templateFile: 'templates/styled/component/styles.ts.hbs'
       }
     ]
   })
@@ -55,24 +55,24 @@ module.exports = function (plop) {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
-        templateFile: 'templates/chakra/component.tsx.hbs'
+        templateFile: 'templates/chakra/component/component.tsx.hbs'
       },
       {
         type: 'add',
         path: './src/components/{{pascalCase name}}/index.ts',
-        templateFile: 'templates/chakra/index.ts.hbs'
+        templateFile: 'templates/chakra/component/index.ts.hbs'
       },
       {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
-        templateFile: 'templates/chakra/spec.tsx.hbs'
+        templateFile: 'templates/chakra/component/spec.tsx.hbs'
       },
       {
         type: 'add',
         path:
           './src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
-        templateFile: 'templates/chakra/stories.tsx.hbs'
+        templateFile: 'templates/chakra/component/stories.tsx.hbs'
       }
     ]
   })
