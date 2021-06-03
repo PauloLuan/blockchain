@@ -27,7 +27,8 @@
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "generate": "npx plop --plopfile ./libs/generator/plopfile.js"
+    "generate": "npx plop --plopfile ./libs/generator/plopfile.js",
+    "storybook:shared": "nx run pay-employee-defi-shared-ui:storybook"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.3",
