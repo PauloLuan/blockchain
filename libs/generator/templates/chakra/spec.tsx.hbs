@@ -12,6 +12,6 @@ describe('{{pascalCase name}} Page', () => {
   it("should find the {{pascalCase name}} test id and it's mindingo's class", () => {
     const { getByTestId } = render(<{{pascalCase name}} />)
     const result = getByTestId('{{pascalCase name}}').textContent
-    expect(result).toEqual({{kebabCase name}})
+    expect(result).toEqual('{{kebabCase name}}')
   })
 })
