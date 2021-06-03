@@ -12,30 +12,31 @@ module.exports = function (plop) {
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
         templateFile: 'templates/styled/component/component.tsx.hbs'
       },
       {
         type: 'add',
-        path: './src/components/{{pascalCase name}}/index.ts',
+        path:
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/index.ts',
         templateFile: 'templates/styled/component/index.ts.hbs'
       },
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
         templateFile: 'templates/styled/component/spec.tsx.hbs'
       },
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
         templateFile: 'templates/styled/component/stories.tsx.hbs'
       },
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.styles.ts',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.styles.ts',
         templateFile: 'templates/styled/component/styles.ts.hbs'
       }
     ]
@@ -54,24 +55,25 @@ module.exports = function (plop) {
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.component.tsx',
         templateFile: 'templates/chakra/component/component.tsx.hbs'
       },
       {
         type: 'add',
-        path: './src/components/{{pascalCase name}}/index.ts',
+        path:
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/index.ts',
         templateFile: 'templates/chakra/component/index.ts.hbs'
       },
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.spec.tsx',
         templateFile: 'templates/chakra/component/spec.tsx.hbs'
       },
       {
         type: 'add',
         path:
-          './src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
+          '../pay-employee-defi/shared-ui/src/components/{{pascalCase name}}/{{kebabCase name}}.stories.tsx',
         templateFile: 'templates/chakra/component/stories.tsx.hbs'
       }
     ]
