@@ -6,9 +6,9 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  html {
-    min-height: 100%;
+  body {
     background: var(--primary);
+    -webkit-font-smoothing: antialiased;
   }
   ul {
     list-style: none;
