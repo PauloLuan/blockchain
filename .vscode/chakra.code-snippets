@@ -42,5 +42,28 @@
       ""
     ],
     "description": "Chackra Component"
+  },
+  "Component Storybook": {
+    "prefix": "ch:storybook",
+    "body": [
+      "import React from 'react'",
+      "import {",
+      "  Example,",
+      "  ExampleProps",
+      "} from '.'",
+      "",
+      "export default {",
+      "  component: Example,",
+      "  title: 'Example'",
+      "}",
+      "",
+      "export const primary = () => {",
+      "  /* eslint-disable-next-line */",
+      "  const props: ExampleProps = {}",
+      "",
+      "  return <Example />",
+      "}"
+    ],
+    "description": "Component Storybook"
   }
 }
