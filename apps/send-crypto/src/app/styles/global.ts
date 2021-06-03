@@ -1,6 +1,16 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
+  :root {
+    --background: #fff;
+    --red: #e52e4d;
+    --blue: #5429cc;
+    --blue-light: #6933ff;
+    --text-title: #363f5f;
+    --text-body: #969cb3;
+    --shape: #FFFFF;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -16,14 +26,19 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: var(--primary);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
   }
   ul {
     list-style: none;
   }
 
-  :root {
-    --primary: #fff;
+  button {
+    cursor: pointer;
+  }
+
+  [disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
 `
