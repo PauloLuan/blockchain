@@ -1,11 +1,19 @@
-import React from 'react'
-import { Logo } from './header.styles'
+import {
+  Logo,
+  LogoContainer,
+  HeaderContainer,
+  TransactionButton
+} from './header.styles'
 
 export const Header = () => {
   return (
-    <header>
-      <h1 data-testid='Header'>header</h1>
-      <Logo />
-    </header>
+    <HeaderContainer>
+      <LogoContainer>
+        <Logo />
+        <h1 data-testid='Header'>Crypto Swap</h1>
+      </LogoContainer>
+
+      <TransactionButton>New Transaction</TransactionButton>
+    </HeaderContainer>
   )
 }
