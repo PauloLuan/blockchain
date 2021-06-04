@@ -40,7 +40,7 @@ export const TransactionButton = styled.button`
   background: var(--blue-light);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-  transition: filter 0.2s;
+  transition: filter 0.2s, transform 0.2s;
 
   &:hover {
     filter: opacity(0.6);
