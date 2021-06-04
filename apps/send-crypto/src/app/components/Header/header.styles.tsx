@@ -7,7 +7,6 @@ export const HeaderContainer = styled.div`
   align-items: flex-start;
   background-color: var(--blue-dark);
   height: 20rem;
-  teste: 123;
 `
 
 export const SubHeader = styled.header`
