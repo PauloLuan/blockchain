@@ -2,18 +2,20 @@ import {
   Logo,
   LogoContainer,
   HeaderContainer,
-  TransactionButton
+  TransactionButton,
+  SubHeader
 } from './header.styles'
 
 export const Header = () => {
   return (
     <HeaderContainer>
-      <LogoContainer>
-        <Logo />
-        <h1 data-testid='Header'>Crypto Swap</h1>
-      </LogoContainer>
-
-      <TransactionButton>New Transaction</TransactionButton>
+      <SubHeader>
+        <LogoContainer>
+          <Logo />
+          <h1 data-testid='Header'>Crypto Swap</h1>
+        </LogoContainer>
+        <TransactionButton>New Transaction</TransactionButton>
+      </SubHeader>
     </HeaderContainer>
   )
 }
