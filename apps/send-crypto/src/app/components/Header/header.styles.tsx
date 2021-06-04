@@ -38,4 +38,13 @@ export const TransactionButton = styled.button`
   border-radius: 0.25rem;
   height: 3rem;
   background: var(--blue-light);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: opacity(0.6);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: scale(1.1, 1.1);
+  }
 `
