@@ -18,8 +18,10 @@ export const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   max-height: 10px;
+  color: var(--background);
 `
 
 export const TransactionButton = styled.button`
   height: 30px;
+  background-color: var(--blue-light);
 `
