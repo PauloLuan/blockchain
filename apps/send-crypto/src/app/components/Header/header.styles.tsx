@@ -13,7 +13,7 @@ export const SubHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 580px;
+  max-width: 980px;
   width: 100%;
   margin: 5rem;
 `
@@ -31,6 +31,11 @@ export const LogoContainer = styled.div`
 `
 
 export const TransactionButton = styled.button`
-  height: 30px;
-  background-color: var(--blue-light);
+  font-size: 1.25rem;
+  color: var(--background);
+  border: 0;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  height: 3rem;
+  background: var(--blue-light);
 `

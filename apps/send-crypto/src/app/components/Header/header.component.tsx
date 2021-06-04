@@ -14,7 +14,7 @@ export const Header = () => {
           <Logo />
           <h1 data-testid='Header'>Crypto Swap</h1>
         </LogoContainer>
-        <TransactionButton>New Transaction</TransactionButton>
+        <TransactionButton>Swap Crypto</TransactionButton>
       </SubHeader>
     </HeaderContainer>
   )
