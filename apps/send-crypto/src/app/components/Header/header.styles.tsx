@@ -1,12 +1,21 @@
 import styled from 'styled-components'
 import { FcCurrencyExchange } from 'react-icons/fc'
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: blue;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--blue-dark);
   height: 20rem;
+`
+
+export const SubHeader = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 580px;
+  width: 100%;
+  margin: 5rem;
 `
 
 export const Logo = styled(FcCurrencyExchange)`
