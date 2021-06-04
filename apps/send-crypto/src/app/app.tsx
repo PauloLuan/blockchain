@@ -1,12 +1,11 @@
 import { GlobalStyles } from './styles/global'
+import { Header } from './components/Header/header.component'
 
 export function App () {
   return (
     <>
       <GlobalStyles />
-      <header className='flex'>
-        <h1>Welcome to send-crypto!</h1>
-      </header>
+      <Header />
       <main>Aoba</main>
     </>
   )
