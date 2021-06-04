@@ -45,6 +45,6 @@ export const TransactionButton = styled.button`
   &:hover {
     filter: opacity(0.6);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transform: scale(1.1, 1.1);
+    transform: translateX(-0.25rem);
   }
 `
